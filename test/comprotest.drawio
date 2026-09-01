@@ -1,0 +1,137 @@
+<mxfile host="65bd71144e">
+    <diagram id="8vrNAvA0G9C_nMyCnjZ_" name="Page-1">
+        <mxGraphModel dx="833" dy="339" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="7" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="2" target="3">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="30" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="317.5" y="120" width="205" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="noting_missing_number" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="390" y="135" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="230" width="160" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="3" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9" target="14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="30" width="205" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="noting_missing_number" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="672.5" y="45" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="(list_number_result)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="395" y="150" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="(list_number_result)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="672.5" y="60" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="14" target="18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="define : count =1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;arcSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="642.5" y="120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="18" target="20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="define: number =ข้อมูลตัวเเรกของ list_number" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;arcSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="613.75" y="210" width="177.5" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="20" target="22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="20" target="27">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;number = ข้อมูลตัวสุดท้ายของ list_number ?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;arcSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="569.38" y="310" width="260.62" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="22" target="24">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="count = count*number" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;arcSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="639.69" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="24" target="20">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="520" y="610"/>
+                            <mxPoint x="520" y="380"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="number = ข้อมูลตัวถัดไปของ list_number" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;arcSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="639.69" y="580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="27" target="29">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="define Awnser = [result / count]" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;arcSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="980.31" y="350" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="29" target="31">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="29" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Awnser == 1?" style="rhombus;whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;arcSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="965.4599999999999" y="480" width="149.69" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="31" target="35">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="1280" y="760"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="31" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;print(Awnser)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;arcSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="1209.99" y="490" width="140.01" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="33" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="print(&quot;no missing&quot;)" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;verticalAlign=top;rounded=1;arcSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="950.4599999999999" y="610" width="179.7" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="ellipse;whiteSpace=wrap;html=1;verticalAlign=top;rounded=1;arcSize=6;" vertex="1" parent="1">
+                    <mxGeometry x="1030.46" y="750" width="19.69" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="false" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="710" y="450" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="39" value="true" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="860" y="350" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="true" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1050.15" y="560" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" value="false" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1140" y="490" width="60" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="END" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="649.69" y="820" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="35" target="43">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="700" y="760"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,5 +1,8 @@
-nums =list(map(int,("Enter number list :").split()))
+nums = list(map(int, input("Enter number list : ").split()))
+
 target=int(input("Enter the target number :"))
+
+
 print (nums)
 output = []
 for numberloop1 in nums: 
@@ -9,4 +12,4 @@ for numberloop1 in nums:
                     if [numberloop2,numberloop1] not in output and numberloop1 != numberloop2:
                         output.append([numberloop1,numberloop2])
     
-print ("OUTPUT HERE >>",output)
+print (f"OUTPUT HERE >>{output}")
